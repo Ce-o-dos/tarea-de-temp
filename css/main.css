@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(245, 255, 245);
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #262626;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    justify-content: space-around;  
+}
+
+li{
+    list-style: none;
+    font-size: 2rem;
+    color: aliceblue;
+    margin-top: 36px;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+li:hover{
+    color: #317d68;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.social-media{
+    background-color: #212121;
+    height: 35px;
+    width: 100%;
+}
+
+.social-media ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media ul a{
+    color: #317d68;
+}
+
+.twitter{
+    width: 30px;
+}
+
+.fb{
+    width: 17px;
+    margin-top: 2px;
+}
+
+.ig{
+    width: 30px;
+}
+
+main{
+    margin-top: 70px;
+    
+
+}
+
+.img-box{
+    width: 500px;
+
+}
+
+.box-container{
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.btn-section{
+	width: 25rem;
+	height: 6.1rem;
+	font-size: 2.75rem;
+	border:3.4px solid black;
+	border-radius: 5px;
+	background: none;
+	color:black;
+    margin: 19px;
+    transition: color 0.3s, border 0.3s;
+}
+
+.btn-section:hover{
+    color: #317d68;
+    border:3.4px solid #317d68;
+    
+}
+
+.box-container p{
+    font-size: 1.8rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
